@@ -102,3 +102,8 @@ opl()
 
 alias docs="cd ~/Documents"
 
+#############################################
+# Hello World
+#############################################
+
+alias zshutils-hw="echo 'Hello World from zshutils!'"

@@ -2,26 +2,22 @@
 Minimal and pretty shell utils
 
 ## Installation
-
-Clone the repo
-```bash
-git clone https://github.com/migueweb/zsh-utils.git
+Install on zsh
+```
+curl -fsSl https://raw.githubusercontent.com/migueweb/zsh-utils/main/zshutils >> ~/.zshrc
 ```
 
-Move to dir
+Install on bash
 ```
-cd zsh-utils
-```
-
-Installing on zsh
-```sh
-cat zshutils >> ~/.zshrc
+curl -fsSl https://raw.githubusercontent.com/migueweb/zsh-utils/main/zshutils >> ~/.bashrc
 ```
 
-Installing on bash
-```sh
-cat zshutils >> ~/.bashrc
+To check the installation run `zshutils-hw` and the output should be:
 ```
+Hello World from zshutils!
+```
+
+see the utils 👉 [zshutils](zshutils)
 
 ## author
 Miguel Amador: [@migueweb](https://github.com/migueweb)
