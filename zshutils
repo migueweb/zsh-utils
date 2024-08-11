@@ -21,7 +21,7 @@ function success() {
 # Verify zsh-utils installation
 #############################################
 
-zshutils(){
+zsh-utils(){
     success "zsh-utils is installed"
 }
 
