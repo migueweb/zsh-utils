@@ -1,23 +1,25 @@
-# zsh-utils
-Minimal and pretty shell utils
+```
+         _             _   _ _     
+ _______| |__    _   _| |_(_) |___ 
+|_  / __| '_ \  | | | | __| | / __|
+ / /\__ \ | | | | |_| | |_| | \__ \
+/___|___/_| |_|  \__,_|\__|_|_|___/
+```
+This is a collection of aliases, functions, utilities and configs for git, lsd, pnpm, python, and others stuffs. To see each one of them visit [zshutils](https://github.com/migueweb/zsh-utils/blob/main/zshutils).
+
+## requirements
+- Zsh shell. There are available on linux and macOS
+- cURL
 
 ## Installation
-Install on zsh
+```bash
+curl -fsSl https://migueweb.github.io/zsh-utils/install.sh | zsh 
 ```
-curl -fsSl https://raw.githubusercontent.com/migueweb/zsh-utils/main/zshutils >> ~/.zshrc && zsh
+## Uninstallation
+Remove the line `source /home/user/.zsh-utils` from your `.zshrc` config file and run the following command in the terminal.
+```bash
+rm ~/.zsh-utils
 ```
-
-Install on bash
-```
-curl -fsSl https://raw.githubusercontent.com/migueweb/zsh-utils/main/zshutils >> ~/.bashrc && bash
-```
-
-To check the installation run `zshutils-hw` and the output should be:
-```
-Hello World from zshutils!
-```
-
-see the utils 👉 [zshutils](zshutils)
 
 ## author
 Miguel Amador: [@migueweb](https://github.com/migueweb)
