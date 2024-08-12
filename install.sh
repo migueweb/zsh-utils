@@ -22,13 +22,13 @@ curl -s -o $HOME/.zsh-utils https://migueweb.github.io/zsh-utils/zshutils
 if [[ $SHELL == */bash ]]; then # if the shell is bash
   success "installing zsh-utils..."
   echo -e "\nsource $HOME/.zsh-utils" >> $HOME/.bashrc
-  source $HOME/.bashrc
+  bash
   success "zsh-utils installed successfully."
 
 elif [[ $SHELL == */zsh ]]; then # if the shell is zsh
   success "installing zsh-utils..."
   echo -e "\nsource $HOME/.zsh-utils" >> $HOME/.zshrc
-  source $HOME/.zshrc
+  zsh
   success "zsh-utils installed successfully."
 else
     error "you need to use Bash or Zsh to install zsh-utils."
