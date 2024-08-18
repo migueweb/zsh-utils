@@ -76,6 +76,12 @@ alias ga="git add"
 alias gaa="git add ."
 alias gl="git log"
 alias glo="git log --oneline"
+alias gsw="git switch"
+alias gch="git checkout"
+alias gb="git branch"
+alias gcl="git clone"
+alias gpl="git pull"
+alias gp="git push"
 
 #############################################
 # Laravel
