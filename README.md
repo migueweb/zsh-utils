@@ -10,13 +10,22 @@ This is a collection of aliases, functions, utilities and configs for git, lsd, 
 ## requirements
 - Zsh shell. There are available on linux and macOS
 - cURL
+- [LSD (ls deluxe)](https://github.com/lsd-rs/lsd)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) feature-rich and performance oriented, neofetch like system information tool.
 
 ## Installation
+1. zsh
 ```bash
 curl -fsSl https://migueweb.github.io/zsh-utils/install.sh | zsh 
 ```
-## Uninstallation
-Remove the line `source /home/user/.zsh-utils` from your `.zshrc` config file and run the following command in the terminal.
+
+2. bash
+```bash
+curl -fsSl https://migueweb.github.io/zsh-utils/install.sh | bash
+```
+
+## Uninstall
+Remove the line `source /home/your-user/.zsh-utils` from your `.zshrc` or `.bashrc` config file and run the following command in the terminal.
 ```bash
 rm ~/.zsh-utils
 ```
