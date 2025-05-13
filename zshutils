@@ -38,17 +38,19 @@ alias lt='lsd --tree'
 # Custom bindings for zsh
 #############################################
 
-# Ctrl + Right Arrow key to move the cursor forward by one word
-bindkey "^[[1;5C" forward-word
+if [[ -n "$ZSH_VERSION" ]]; then
+  # [Ctrl + Right Arrow key] to move the cursor forward by one word
+  bindkey "^[[1;5C" forward-word
 
-# Ctrl + Left Arrow key to move the cursor backward by one word
-bindkey "^[[1;5D" backward-word
+  # [Ctrl + Left Arrow key] to move the cursor backward by one word
+  bindkey "^[[1;5D" backward-word
 
-# Ctrl + Backspace key to delete the word before the cursor
-bindkey '^H' backward-kill-word
+  # [Ctrl + Backspace] key to delete the word before the cursor
+  bindkey '^H' backward-kill-word
 
-# Fn + Backspace key to delete the entire current line
-bindkey '^[[3~' kill-whole-line
+  # [Fn + Backspace] key to delete the entire current line
+  bindkey '^[[3~' kill-whole-line
+fi
 
 #############################################
 # pnpm
